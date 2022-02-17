@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+    height: 100%;
+}
+
+footer { 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+}
+
+footer a { color: hsl(228, 45%, 44%); }
