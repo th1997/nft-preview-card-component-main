@@ -4,77 +4,95 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-family: Outfit;
     height: 100%;
+    color: white
 }
 
 #NFT_Card{
     background-color: hsl(216, 50%, 16%);
     border-radius: 5%;
     padding-top: 20px;
-    width: 310px;
-    height: 500px;
+    width: 323px;
+    height: 530px;
     margin: auto;
     top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-.pic_NFT, footer{ text-align: center; }
+.pic_NFT { text-align: center }
 
 .pic_NFT img{
+    max-width: 89%;
     border-radius: 5%;
-    max-width: 85%;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+.Card_Content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
 .name_NFT h2{
     font-size: 18px;
     font-weight: 600;
-}
-
-.name_NFT, .desc_NFT, .footer_card, .informations{ 
-    margin-left: 8%;
-    margin-right: 6%;
+    margin-bottom: auto;
 }
 
 .desc_NFT{
     font-weight: 300;
     font-size: 18px;
-    color: hsl(215, 51%, 70%);
+    color: hsl(215, 51%, 70%)
 }
 
 .informations{
     display: flex;
     justify-content: space-between;
-    margin-top: -4%;
+    margin-top: -3%;
+    margin-bottom: 1%
 }
 
-.price_NFT{ color: cyan; font-weight: 600;}
+.informations, .delay_NFT,.footer_card p{ color: hsl(215, 51%, 70%) }
 
-.price_NFT img, .delay_NFT img, .footer_card img{ 
-    vertical-align: middle; 
-    margin-bottom: 5%;
+.price_NFT{ 
+    color: cyan;
+    width: 100px;
+    font-weight: 600
 }
 
-.informations, .delay_NFT, .footer_card{ color: hsl(215, 51%, 70%); }
+.delay_NFT{ width: 100px }
+
+.price_NFT img, .delay_NFT img{ 
+    vertical-align: middle;
+    margin-right: 5%;
+    margin-bottom: 5%
+}
 
 .footer_card{
+    display: flex;
     border-top: 1px solid;
-    border-color: hsl(215, 51%, 70%);
+    border-color: hsl(215, 51%, 70%)
 }
-
-.owner_name{ color: white; }
 
 .footer_card img{
-    max-width: 9%;
-    border-color: white;
-    border: 1.7px solid;
+    width: 9%;
+    border: 1.6px solid;
     border-radius: 50%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%
 }
 
-footer, #NFT_Card { 
+.owner_name{ color: white }
+
+footer { 
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    color: white;
+    text-align: center
 }
 
-footer a { color: hsl(228, 45%, 44%); }
+footer a { color: hsl(228, 45%, 44%) }
