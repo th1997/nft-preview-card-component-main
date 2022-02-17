@@ -9,9 +9,9 @@ body{
 #NFT_Card{
     background-color: hsl(216, 50%, 16%);
     border-radius: 5%;
-    padding-top: 18px;
-    width: 290px;
-    height: 440px;
+    padding-top: 20px;
+    width: 310px;
+    height: 500px;
     margin: auto;
     top: 0;
 }
@@ -20,7 +20,7 @@ body{
 
 .pic_NFT img{
     border-radius: 5%;
-    max-width: 89%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,7 +29,10 @@ body{
     font-weight: 600;
 }
 
-.name_NFT, .desc_NFT, .footer_card, .informations{ margin-left: 6%; }
+.name_NFT, .desc_NFT, .footer_card, .informations{ 
+    margin-left: 8%;
+    margin-right: 6%;
+}
 
 .desc_NFT{
     font-weight: 300;
@@ -40,11 +43,24 @@ body{
 .informations{
     display: flex;
     justify-content: space-between;
+    margin-top: -4%;
 }
 
-.informations .price_NFT{ color: cyan; }
+.price_NFT{ color: cyan; font-weight: 600;}
 
-.informations .delay_NFT{ color: hsl(215, 51%, 70%); }
+.price_NFT img, .delay_NFT img, .footer_card img{ 
+    vertical-align: middle; 
+    margin-bottom: 5%;
+}
+
+.informations, .delay_NFT, .footer_card{ color: hsl(215, 51%, 70%); }
+
+.footer_card{
+    border-top: 1px solid;
+    border-color: hsl(215, 51%, 70%);
+}
+
+.owner_name{ color: white; }
 
 .footer_card img{
     max-width: 9%;
