@@ -6,12 +6,49 @@ body{
     height: 100%;
 }
 
-footer { 
+#NFT_Card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 5%;
+    padding-top: 18px;
+    width: 290px;
+    height: 440px;
+    margin: auto;
+    top: 0;
+}
+
+#NFT_Card .pic_NFT{
+    text-align: center;
+}
+
+.pic_NFT img{
+    border-radius: 5%;
+    max-width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.informations{
+    display: flex;
+}
+
+.flex{
+    flex-grow: 1;
+ }
+
+.footer_card img{
+    max-width: 10%;
+    border-color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+footer, #NFT_Card { 
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    text-align: center;
     color: white;
 }
 
