@@ -39,10 +39,6 @@ body{
 
 
 
-/*    transform: translate(-50%, -50%);
-    text-align: center;
-    */
-
 .overlay{
     border-radius: 6%;
     transition: .5s ease;
