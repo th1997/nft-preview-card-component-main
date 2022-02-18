@@ -21,10 +21,6 @@ body{
     left: 0;
 }
 
-
-
-
-
 .pic_NFT { 
     position: relative;
     border-radius: 6%;
@@ -36,8 +32,6 @@ body{
     margin-left: 5%;
     border-radius: 5%;
 }
-
-
 
 .overlay{
     border-radius: 6%;
@@ -65,11 +59,6 @@ body{
     background-color: rgba(0, 255, 255, 0.3);
 }
 
-
-
-
-
-
 .Card_Content{
     display: flex;
     flex-direction: column;
@@ -83,7 +72,12 @@ body{
     margin-bottom: auto;
 }
 
-.name_NFT:hover, .owner_name:hover{ color:cyan; }
+.name_NFT a{
+    text-decoration: none;
+    color: white;
+}
+
+.name_NFT a:hover, .owner_name:hover{ color:cyan; }
 
 .desc_NFT{
     font-weight: 300;
@@ -129,7 +123,10 @@ body{
     margin-bottom: 4%
 }
 
-.owner_name{ color: white }
+.owner_name{ 
+    color: white; 
+    text-decoration: none;
+}
 
 footer { 
     position: absolute;
