@@ -4,7 +4,7 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-family: Outfit;
     height: 100%;
-    color: white;
+    color: white
 }
 
 #NFT_Card{
@@ -14,29 +14,24 @@ body{
     width: 323px;
     height: 530px;
     margin: auto;
-    top: 0;
     position: absolute;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    box-shadow: 0px 10px 50px 20px hsl(217, 69%, 5%)
+    box-shadow: 0px 15px 40px 20px hsl(217, 60%, 6%)
 }
 
-.pic_NFT { 
-    position: relative;
-    border-radius: 6%;
-    width: 100%;
-}
+.pic_NFT { position: relative }
 
 #equilibrium{
     max-width: 89%;
     margin-left: 5%;
-    border-radius: 5%;
+    border-radius: 5%
 }
 
 .overlay{
     border-radius: 6%;
-    transition: .5s ease;
     opacity: 0;
     position: absolute;
     top: 0%;
@@ -44,41 +39,34 @@ body{
     padding-right: 37%;
     padding-left: 37%;
     padding-top: 37%;
-    padding-bottom: 36%;
-    background-color:cyan;
-}
-
-.equilibrium:hover {
-    -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    opacity: 0.5;
-    box-shadow: inset 100em 1em rgba(0, 255, 255, 0.5);
+    padding-bottom: 36%
 }
 
 .overlay:hover{
     opacity: 1;
-    background-color: rgba(0, 255, 255, 0.3);
+    transition: .5s ease;
+    background-color: rgba(0, 255, 255, 0.4)
 }
 
 .Card_Content{
     display: flex;
     flex-direction: column;
     padding-left: 6%;
-    padding-right: 6%;
+    padding-right: 6%
 }
 
 .name_NFT h2{
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: auto;
+    margin-bottom: auto
 }
 
 .name_NFT a{
     text-decoration: none;
-    color: white;
+    color: white
 }
 
-.name_NFT a:hover, .owner_name:hover{ color:cyan; }
+.name_NFT a:hover, .owner_name:hover{ color:cyan }
 
 .desc_NFT{
     font-weight: 300;
@@ -89,8 +77,7 @@ body{
 .informations{
     display: flex;
     justify-content: space-between;
-    margin-top: -3%;
-    margin-bottom: 1%
+    margin-top: -3%
 }
 
 .informations, .delay_NFT,.footer_card p{ color: hsl(215, 51%, 70%) }
@@ -105,8 +92,7 @@ body{
 
 .price_NFT img, .delay_NFT img{ 
     vertical-align: middle;
-    margin-right: 5%;
-    margin-bottom: 5%
+    margin-right: 5%
 }
 
 .footer_card{
@@ -126,7 +112,7 @@ body{
 
 .owner_name{ 
     color: white; 
-    text-decoration: none;
+    text-decoration: none
 }
 
 footer { 
