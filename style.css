@@ -4,7 +4,7 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-family: Outfit;
     height: 100%;
-    color: white
+    color: white;
 }
 
 #NFT_Card{
@@ -21,12 +21,58 @@ body{
     left: 0;
 }
 
-.pic_NFT { text-align: center }
 
-.pic_NFT img{
+
+
+
+.pic_NFT { 
+    position: relative;
+    border-radius: 6%;
+    width: 100%;
+}
+
+#equilibrium{
     max-width: 89%;
+    margin-left: 5%;
     border-radius: 5%;
 }
+
+
+
+/*    transform: translate(-50%, -50%);
+    text-align: center;
+    */
+
+.overlay{
+    border-radius: 6%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left:5%;
+    padding-right: 37%;
+    padding-left: 37%;
+    padding-top: 37%;
+    padding-bottom: 36%;
+    background-color:cyan;
+}
+
+.equilibrium:hover {
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    opacity: 0.5;
+    box-shadow: inset 100em 1em rgba(0, 255, 255, 0.5);
+}
+
+.overlay:hover{
+    opacity: 1;
+    background-color: rgba(0, 255, 255, 0.3);
+}
+
+
+
+
+
 
 .Card_Content{
     display: flex;
@@ -40,6 +86,8 @@ body{
     font-weight: 600;
     margin-bottom: auto;
 }
+
+.name_NFT:hover, .owner_name:hover{ color:cyan; }
 
 .desc_NFT{
     font-weight: 300;
