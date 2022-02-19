@@ -7,7 +7,7 @@ body{
     color: white
 }
 
-#NFT_Card{
+main{
     background-color: hsl(216, 50%, 16%);
     border-radius: 5%;
     padding-top: 20px;
@@ -55,7 +55,7 @@ body{
     padding-right: 6%
 }
 
-.name_NFT h2{
+.name_NFT h1{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: auto
